@@ -1,0 +1,7 @@
+html { 
+  background: url(Images/BG_1.png) no-repeat center fixed; 
+  background-size: cover;
+}
+h1 {
+    text-align: center;
+}
