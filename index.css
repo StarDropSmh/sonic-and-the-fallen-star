@@ -11,6 +11,7 @@ body {
 }
 .wrapper {
 height: 100%;
+width: 1000px;
 display: block;
 margin: auto;
 text-align: center
