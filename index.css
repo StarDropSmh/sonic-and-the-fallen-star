@@ -1,7 +1,46 @@
-html { 
-  background: url(Images/BG_1.png) no-repeat center fixed; 
-  background-size: cover;
+@font-face {
+	font-family: 'Kimberley';
+	src: url('kimberley_bl.ttf');
 }
+html { 
+	background: url(Images/BG_1.png) no-repeat center fixed; 
+	background-size: cover;
+}
+body {
+	font-family: 'Kimberley', Fallback, sans-serif;
+}
+
 h1 {
     text-align: center;
+	margin-top: -1em;
+}
+h2 {
+    text-align: center;
+	margin-top: -.8em;
+	color: white;
+	font-size: 40px;
+	line-height: 20px;
+}
+h3 {
+	text-align: center;
+	margin-top: 8em;
+}
+#OSTLogos {
+  position: absolute;
+  top: 42em;
+  left: 22em;
+}
+.ostlogo {
+  position: absolute;
+  left: 10em;
+}
+.ytlink {
+  position: absolute;
+  top: 1em;
+  left: .5em;
+}
+.sclink {
+  position: absolute;
+  top: -.8em;
+  left: 23em;
 }
