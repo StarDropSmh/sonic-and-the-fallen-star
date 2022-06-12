@@ -9,38 +9,44 @@ html {
 body {
 	font-family: 'Kimberley', Fallback, sans-serif;
 }
-
+.wrapper {
+height: 100%;
+display: block;
+margin: auto;
+text-align: center
+}
 h1 {
-    text-align: center;
 	margin-top: -1em;
 }
 h2 {
-    text-align: center;
 	margin-top: -.8em;
 	color: white;
 	font-size: 40px;
 	line-height: 20px;
 }
 h3 {
-	text-align: center;
-	margin-top: 8em;
+	margin-top: -3em;
+}
+h4 {
+	color: white;
+	font-size: 40px;
+	line-height: 20px;
 }
 #OSTLogos {
-  position: absolute;
-  top: 42em;
-  left: 22em;
+  position: relative;
+  top: .8em;
+  right: 1.5em;
 }
 .ostlogo {
-  position: absolute;
+  position: relative;
   left: 10em;
 }
 .ytlink {
-  position: absolute;
-  top: 1em;
-  left: .5em;
+  position: relative;
+  right: 11em;
 }
 .sclink {
-  position: absolute;
-  top: -.8em;
-  left: 23em;
+  position: relative;
+  top: 2.5em;
+  left: 5em;
 }
