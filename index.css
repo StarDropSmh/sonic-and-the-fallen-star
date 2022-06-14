@@ -3,9 +3,10 @@
 	src: url('kimberley_bl.ttf');
 }
 html { 
-  background: url(Images/BG_3.png) left top repeat-y, url(Images/BG_2.png) right bottom repeat-y, url(Images/BG_1.png) no-repeat center fixed;
-  background-size: 275px, 275px, cover;
-  background-transform: rotate(20deg)rotate(20deg)rotate(0deg);
+  background: url(Images/BG_Shape4.png), url(Images/BG_Shape3.png), url(Images/BG_Shape2.png), url(Images/BG_Shape1.png), url(Images/BG_TailsRender.png), url(Images/BG_SonicRender.png), url(Images/BG_2.png), url(Images/BG_3.png), url(Images/BG_1.png) center fixed;
+  background-position: 91% 40%,/*triangle*/ 91% 7%,/*red circle*/ 12% 69%,/*green circle*/ 11% 40%,/*square*/ 103% 65%,/*tails render*/ 0% 7%,/*sonic render*/ right top,/*right bar*/ left top;/*left bar*/
+  background-size: 100px,/*triangle*/ 100px,/*red circle*/ 100px,/*green circle*/ 100px,/*square*/ 470px,/*tails render*/ 400px,/*sonic render*/ 355px,/*right bar*/ 355px,/*left bar*/ cover/*bg*/;
+  background-repeat: no-repeat,/*triangle*/ no-repeat,/*red circle*/ no-repeat,/*green circle*/ no-repeat,/*square*/ no-repeat,/*tails render*/ no-repeat,/*sonic render*/ repeat-y,/*right bar*/ repeat-y,/*left bar*/ no-repeat/*bg*/;
 }
 body {
 	font-family: 'Kimberley', Fallback, sans-serif;
@@ -18,7 +19,7 @@ margin: auto;
 text-align: center
 }
 .divider {
-	margin-top: 5.5em;
+	margin-top: 2.5em;
 }
 h1 {
 	margin-top: -1em;
@@ -30,16 +31,23 @@ h2 {
 	line-height: 20px;
 }
 h3 {
-	margin-top: -4em;
+	margin-top: -2em;
 }
 h4 {
 	color: white;
 	font-size: 40px;
 	line-height: 20px;
 }
+h5 {
+	margin-top: -4em;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	line-height: 25px;
+}
 #OSTLogos {
   position: relative;
-  bottom: .5em;
+  bottom: .7em;
   right: 1.5em;
 }
 .ostlogo {
@@ -53,5 +61,5 @@ h4 {
 .sclink {
   position: relative;
   top: 2.5em;
-  left: 5em;
+  left: 4.8em;
 }
