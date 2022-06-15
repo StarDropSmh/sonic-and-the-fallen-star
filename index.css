@@ -3,21 +3,21 @@
 	src: url('kimberley_bl.ttf');
 }
 html { 
-  background: url(Images/BG_Shape4.png), url(Images/BG_Shape3.png), url(Images/BG_Shape2.png), url(Images/BG_Shape1.png), url(Images/BG_TailsRender.png), url(Images/BG_SonicRender.png), url(Images/BG_2.png), url(Images/BG_3.png), url(Images/BG_1.png) center fixed;
-  min-width: 1450px; /*suck my dick joe*/
-  background-position: 91% 40%,/*triangle*/ 91% 7%,/*red circle*/ 12% 69%,/*green circle*/ 11% 40%,/*square*/ 103% 65%,/*tails render*/ 0% 7%,/*sonic render*/ right top,/*right bar*/ left top;/*left bar*/
-  background-size: 100px,/*triangle*/ 100px,/*red circle*/ 100px,/*green circle*/ 100px,/*square*/ 470px,/*tails render*/ 400px,/*sonic render*/ 355px,/*right bar*/ 355px,/*left bar*/ cover/*bg*/;
-  background-repeat: no-repeat,/*triangle*/ no-repeat,/*red circle*/ no-repeat,/*green circle*/ no-repeat,/*square*/ no-repeat,/*tails render*/ no-repeat,/*sonic render*/ repeat-y,/*right bar*/ repeat-y,/*left bar*/ no-repeat/*bg*/;
+  background: url(Images/BG_Shape4.png), url(Images/BG_Shape3.png), url(Images/BG_Shape2.png), url(Images/BG_Shape1.png), url(Images/BG_TailsRender.png), url(Images/BG_SonicRender.png), url(Images/BG_2.png), url(Images/BG_3.png), url(Images/BG_1.png) fixed;
+  min-width: 1250px; /*suck my dick joe*/ /*okay hollie*/
+  background-position: 91% 40%,/*triangle*/ 91% 7%,/*red circle*/ 12% 69%,/*green circle*/ 11% 40%,/*square*/ 109% 89%,/*tails render*/ -9% 7%,/*sonic render*/ right top,/*right bar*/ left top,/*left bar*/ center;/*bg*/
+  background-size: 100px,/*triangle*/ 100px,/*red circle*/ 100px,/*green circle*/ 100px,/*square*/ 470px,/*tails render*/ 400px,/*sonic render*/ 355px,/*right bar*/ 355px,/*left bar*/ cover;/*bg*/
+  background-repeat: no-repeat,/*triangle*/ no-repeat,/*red circle*/ no-repeat,/*green circle*/ no-repeat,/*square*/ no-repeat,/*tails render*/ no-repeat,/*sonic render*/ repeat-y,/*right bar*/ repeat-y,/*left bar*/ no-repeat;/*bg*/
 }
 body {
 	font-family: 'Kimberley', Fallback, sans-serif;
 }
 .wrapper {
-height: 100%;
-width: 1000px;
-display: block;
-margin: 0px auto;
-text-align: center
+	height: 100%;
+	width: 1000px;
+	display: block;
+	margin: 0px auto;
+	text-align: center
 }
 .divider {
 	margin-top: 2.5em;
@@ -47,20 +47,20 @@ h5 {
 	line-height: 25px;
 }
 #OSTLogos {
-  position: relative;
-  bottom: .7em;
-  right: 1.5em;
+	position: relative;
+	bottom: .7em;
+	right: 1.5em;
 }
 .ostlogo {
-  position: relative;
-  left: 10em;
+	position: relative;
+	left: 10em;
 }
 .ytlink {
-  position: relative;
-  right: 11em;
+	position: relative;
+	right: 11em;
 }
 .sclink {
-  position: relative;
-  top: 2.5em;
-  left: 4.8em;
+	position: relative;
+	top: 2.5em;
+	left: 4.8em;
 }
