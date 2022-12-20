@@ -1,0 +1,64 @@
+@font-face {
+	font-family: 'Kimberley';
+	src: url('kimberley_bl.ttf');
+}
+html { 
+  background: url(Images/BG_Shape3.png), url(Images/BG_SonicRender.png), url(Images/BG_2.png), url(Images/BG_3.png), url(Images/BG_1.png) fixed;
+  min-width: 1250px;
+  background-position: 91% 68%,/*red circle*/ -8.9% -441%,/*sonic render*/ right top,/*right bar*/ left top,/*left bar*/ center;/*bg*/
+  background-size: 100px,/*red circle*/ 400px,/*sonic render*/ 355px,/*right bar*/ 355px,/*left bar*/ cover;/*bg*/
+  background-repeat: no-repeat,/*red circle*/ no-repeat,/*sonic render*/ repeat-y,/*right bar*/ repeat-y,/*left bar*/ no-repeat;/*bg*/
+}
+body {
+	font-family: 'Kimberley', Fallback, sans-serif;
+	background-color: transparent;
+}
+a:link {
+	text-decoration: none;
+	color: white;
+}
+a:visited {
+	color: white;
+}
+a:hover {
+	color: #8747ff;
+}
+.wrapper {
+	height: 100%;
+	width: 1000px;
+	display: block;
+	margin: 0px auto;
+	text-align: center;
+}
+.divider {
+	margin-top: 2.5em;
+}
+
+.logo {
+	margin-top: 10em;
+	position: relative;
+	right: 12em;
+}
+
+.sonicidle {
+	position: relative;
+	left: 10em;
+	top: 3.6em;
+}
+
+h1 {
+	text-align: left;
+	margin-top: 1em;
+	margin-bottom: 3em;
+	margin-left: 9.8em;
+	font-size: 18px;
+	color: white;
+	line-height: 20px;
+}
+h2 {
+	margin-top: 1em;
+	margin-bottom: -3em;
+	color: white;
+	font-size: 40px;
+	line-height: 20px;
+}
